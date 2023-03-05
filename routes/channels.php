@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Broadcast Channels
+| Broadcast Channelshttps://github.com/peter-yang-dev/realworld/blob/develop/routes/channels.php
 |--------------------------------------------------------------------------
 |
 | Here you may register all of the event broadcasting channels that your
@@ -14,3 +14,4 @@
 Broadcast::channel('App.User.{id}', function ($user, $id) {
     return (int) $user->id === (int) $id;
 });
+
