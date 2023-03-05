@@ -27,5 +27,6 @@ abstract class TestCase extends BaseTestCase
         $this->headers = [
             'Authorization' => "Bearer {$this->loggedInUser->token}"
         ];
+        
     }
 }
