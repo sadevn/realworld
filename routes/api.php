@@ -39,6 +39,7 @@ Route::group(['namespace' => 'Api'], function () {
         ]
     ]);
 
+    
     Route::get('tags', 'TagController@index');
 
 });
